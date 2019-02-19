@@ -1,0 +1,267 @@
+.block-number{text-align:center;font-weight:bold;font-size:0.8125em;letter-spacing:2px;text-transform:uppercase;color:#191919;-webkit-transition:0.3s ease-out;transition:0.3s ease-out}.block-number:hover{opacity:1}.block-number::after{content:'';display:inline-block;width:0;height:0;margin-left:6px;margin-bottom:2px;border-left:3px solid transparent;border-right:3px solid transparent;border-top:3px solid #191919}.block-number a:hover,.block-number a:focus{color:#191919}.demo-section .main-content .section,.demo-topbar .main-content .topbar,.demo-navbar .main-content .navbar,.demo-header .main-content .header,.demo-footer .main-content .footer{margin:30px 20px 100px;border:1px solid #f5f6f7;-webkit-box-shadow:0 0 15px rgba(0,0,0,0.05);box-shadow:0 0 15px rgba(0,0,0,0.05)}.demo-topbar .main-content .topbar,.demo-navbar .main-content .navbar{position:static;margin:0}.sample-blocks img{border-radius:0.25rem}.sample-blocks img.aos-animate{opacity:0.5 !important}.sample-blocks img:hover{opacity:1 !important;-webkit-transition:0.7s !important;transition:0.7s !important}.sample-blocks a{position:absolute}.sample-blocks a:nth-child(1){-webkit-animation:wobble 4s infinite;animation:wobble 4s infinite;right:15px;bottom:-20px}.sample-blocks a:nth-child(2){-webkit-animation:wobble 8s infinite;animation:wobble 8s infinite;right:320px;bottom:30px}.sample-blocks a:nth-child(3){-webkit-animation:wobble 5s infinite;animation:wobble 5s infinite;right:0px;bottom:190px}.sample-blocks a:nth-child(4){-webkit-animation:wobble 6s infinite;animation:wobble 6s infinite;right:280px;bottom:180px}.sample-blocks a:nth-child(5){-webkit-animation:wobble 9s infinite;animation:wobble 9s infinite;right:270px;bottom:320px}.sample-blocks a:nth-child(6){-webkit-animation:wobble 7s infinite;animation:wobble 7s infinite;right:20px;bottom:370px}.sample-blocks a:nth-child(7){-webkit-animation:wobble 5s infinite;animation:wobble 5s infinite;right:200px;bottom:470px}.sample-blocks a:nth-child(8){-webkit-animation:wobble 8s infinite;animation:wobble 8s infinite;right:10px;bottom:470px}.sample-blocks a:nth-child(9){-webkit-animation:wobble 9s infinite;animation:wobble 9s infinite;right:0px;bottom:570px}@-webkit-keyframes wobble{0%{-webkit-transform:rotate(-1deg) translate(-5px, -5px);transform:rotate(-1deg) translate(-5px, -5px)}50%{-webkit-transform:rotate(1deg) translate(5px, 5px);transform:rotate(1deg) translate(5px, 5px)}100%{-webkit-transform:rotate(-1deg) translate(-5px, -5px);transform:rotate(-1deg) translate(-5px, -5px)}}@keyframes wobble{0%{-webkit-transform:rotate(-1deg) translate(-5px, -5px);transform:rotate(-1deg) translate(-5px, -5px)}50%{-webkit-transform:rotate(1deg) translate(5px, 5px);transform:rotate(1deg) translate(5px, 5px)}100%{-webkit-transform:rotate(-1deg) translate(-5px, -5px);transform:rotate(-1deg) translate(-5px, -5px)}}@media (max-width: 400px){body>.footer .social a:last-child,body>.footer .nav a:last-child{display:none}}
+
+/*# sourceMappingURL=style.css.map */
+._26sdfg
+{
+    right: 0;
+}
+._fnt
+{
+    font-size: 80px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+/* .header
+{
+    padding-bottom: 100px;
+} */
+.hd{
+    padding-top: 0px;
+}
+
+.bgd{
+    background: #193946;
+    color: #bdbdb5;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+
+
+.lead {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#unhead{
+    font-size:80px;
+}
+
+@media screen and (max-width: 300px) {
+    #unhead {
+        font-size: 40px;
+    }
+}
+
+
+
+/* .imagee {
+  opacity: 1;
+  
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cntinr:hover .imagee {
+ 
+  -webkit-filter: blur(2px); 
+  filter: blur(3px);
+}
+
+.cntinr:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color:transparent;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+} */
+
+
+
+
+/* login */
+.bckgndd
+{
+    margin: -10px;
+    margin-right: -25px;
+    margin-bottom: -25px;
+    margin-top: -25px;
+   background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+/* Image blur */
+.cntinr {
+    position: relative;
+    width: 100%;
+}
+.imagee {
+    /* display: block; */
+    width: auto;
+    height:auto;
+  }
+
+
+.overlay {
+    /* position: absolute; */
+    /* bottom: 100%; */
+    /* left: 0;
+    right: 0; */
+    background-color:black;
+    /* overflow: hidden; */
+    /* width: 100%; */
+    height:0;
+    
+    transition: 0.5s ease;
+    opacity:.7;
+  }
+ 
+  .cntinr:hover .imagee 
+  {
+    -webkit-filter: blur(2px); 
+    filter: blur(3px);
+  }
+  
+  .cntinr:hover .overlay {
+    bottom: 0;
+  height: 100%;
+ 
+ 
+  }
+
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -85%);
+    text-align: center;
+  }
+
+  /* +91  in phone appDownload*/
+
+  .txtsps
+  {
+      padding-left: 50px;
+      width:100%;
+      height: 70%;
+      padding-top: 1px;
+  }
+  .mob
+  {
+      font-size: 20px;
+  }
+  .phn
+  {
+    position: absolute;
+    top: 5px;
+    color: #f5f6f7;
+    left: 5px
+
+  }
+  .nn{
+      height: 90%;
+  }
+.phnalgn
+{
+    padding-left: 50px;
+}
+
+
+/* popup login */
+.reveal-modal     
+  {
+        background:#e1e1e1; 
+        visibility:hidden;
+        display:none;
+        top:100px; 
+        left:50%; 
+        width:820px; 
+        position:absolute; 
+        z-index:41;
+        padding:30px; 
+        -webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
+        -moz-box-shadow:0 0 10px rgba(0,0,0,0.4); 
+        box-shadow:0 0 10px rgba(0,0,0,0.4)
+  }
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* geomap */
+  #geomap{
+    width: 100%;
+    height: 400px;
+}
+.pac-container { z-index: 100000; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    #validEmail
+    {
+        margin-top: 4px;
+        margin-left: 9px;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+    }
+
+    .text
+    {
+        font-family: Arial, Tahoma, Helvetica;
+    }
+
+
+</style>
